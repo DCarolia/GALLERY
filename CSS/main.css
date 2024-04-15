@@ -1,0 +1,167 @@
+.banner{
+    position: relative;
+    color: var(--textcolor);
+    padding: 0%;
+    }
+   
+    .carousel{
+        width: 100%;
+    }
+
+    & .invitacion{
+        position: absolute;
+        right: 5em;
+        text-align: right;
+        width: 49%;
+        top: 28%;
+        line-height: 1.5em;
+    
+
+        & a{
+            text-decoration: none;
+            color: var(--textcolor);
+            margin: 15px;
+            border: 1px solid var(--textcolor);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        #btn-invitacion{
+            flex-wrap: nowrap;
+        }
+
+        .btn-primary{
+            background-color: var(--colorbtn);
+            border: 1px solid var(--colorbtn);
+        }
+
+        & p{
+            margin: 20px;
+        }
+    }
+
+    .row{
+        margin-top: 4%;
+    }
+
+
+@media (max-width: 1024px){
+
+    .banner{
+        position: relative;
+        color: var(--textcolor);
+        width: 100%;
+        margin-top: 0%;
+        padding: 0%;
+        }
+       
+        #img{
+            width: 100%;
+            height: auto;
+        }
+        
+        & .invitacion{
+            position: absolute;
+            right: 3em;
+            padding: 0 1.8em 1.8em;
+            text-align: right;
+            width: 50%;
+            top: 20%;
+            line-height: 1.1em;
+
+            & a{
+                text-decoration: none;
+                color: var(--textcolor);
+                margin: 6px;
+                border: 1px solid var(--textcolor);
+                padding: 5px 10px;
+                border-radius: 10px;
+            }
+    
+            .btn-primary{
+                background-color: var(--colorbtn);
+                border: 1px solid var(--colorbtn);
+            }
+    
+            & p{
+                margin: 8px 0;
+            }
+        }
+    }
+
+
+ @media (max-width: 540px){
+
+    .banner{
+        position: relative;
+        color: var(--textcolor);
+        width: 100%;
+        padding: 0%;
+        }
+
+        .container-fluid{
+            max-width: 100%;
+            margin: 0%;
+        }
+       
+        #img{
+            width: auto;
+            height: 35rem;
+        }
+
+        & .invitacion{
+            position: absolute;
+            right: 1.5em;
+            text-align: right;
+            width: 94%;
+            top: 15%;
+            line-height: 1.2em;
+            margin-top: 1%;
+            font-size: 1em;
+
+        }
+        
+        #btn-invitacion{
+            flex-wrap: nowrap;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--textcolor);
+            margin: 6px;
+            border: 1px solid var(--textcolor);
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+
+        .btn-primary{
+            background-color: var(--colorbtn);
+            border: 1px solid var(--colorbtn);
+        }
+
+        & h1{
+            font-size: 1.2em;
+        }
+
+        & p{
+            margin: 8px 0px;
+        }
+    } 
+
+    @media (max-width: 280px){
+
+        main{
+
+        #img{
+            width: 150%;
+            height: 35rem;
+        }
+
+        .invitacion{
+            top: 12%;
+        }
+
+      }
+
+    }
+

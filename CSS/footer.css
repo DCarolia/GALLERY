@@ -1,0 +1,45 @@
+.footer{
+    display: flex;
+    background-color: var(--bgcolor);
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    & a{
+        text-decoration: none;
+        color: white;
+        margin: 2em;
+    }
+}
+
+@media (max-width: 992px){
+    
+    .footer{
+        height: auto;
+        align-items:center;
+        flex-wrap: wrap;
+
+        & a{
+            text-decoration: none;
+            color: white;
+            margin: .8em;
+        }
+    }
+    
+}
+
+@media (max-width: 575px){
+    
+    .footer{
+        height: auto;
+        align-items:center;
+        flex-wrap: wrap;
+
+        & a{
+            text-decoration: none;
+            color: white;
+            margin: .6em;
+        }
+    }
+    
+}

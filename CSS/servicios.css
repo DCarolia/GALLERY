@@ -1,0 +1,160 @@
+
+
+.item-2{
+    max-width: 800px;
+    margin-top: 0%;
+    padding: 5% 0% 5% 0%;    
+}
+
+#formulario{
+    background-color: #474c53;
+    margin: 3% 0% 2% 0%;
+    padding: 1% 0% 3% 0%;
+    border-radius: 2%;
+    color: beige;
+
+    .serv{
+        font-size:larger;
+    }
+}
+
+
+.categorias{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 10px inset;
+}
+
+.card-header{
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.card-body{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.pres {
+   color: gray;
+}
+
+b{
+    font-size: 1.4rem;
+}
+
+#cant-cat{
+    margin-top: 2%;
+}
+
+#pagar{
+    margin-top: 2%;
+}
+
+label{
+    width: 100%;
+}
+
+.row{
+    margin: 0%;
+    display: flex;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.col-lg-6{
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+option{
+    font-size: .8em;
+}
+
+@media (min-width: 1025px){
+
+    .card-body{
+        width: 12rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .item-2{
+        padding-bottom: 1%  1% 15% 1%;
+        margin-bottom: 0%;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .item-2{
+        padding: 1% 1% 4% 1%;
+        margin-bottom: 0%;
+    }
+
+    #tick{
+        max-width: 580px;
+    }
+
+    .cant{
+        padding-right: 0em;
+    }
+    
+    .sel{
+        padding-left: 0em;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .item-2{
+        padding-bottom: 5%;
+    }
+
+    #tick{
+        max-width: 580px;
+    }
+
+    .cant{
+        padding-right: 0em;
+    }
+    
+    .sel{
+        padding-left: 0em;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .card{
+        width: 90%;
+    }
+    
+    .col-lg-6{
+        padding-left: 0%;
+    padding-right: 0%;
+    }
+
+    strong{
+        font-size: 80%;
+    }
+
+    label{
+        font-size: .8em;
+    }
+}

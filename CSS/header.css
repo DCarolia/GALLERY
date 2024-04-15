@@ -1,0 +1,83 @@
+header {
+    max-width: 100%;
+}
+
+#nav-bar {
+    background-color: var(--bgcolor);
+    color: var(--textcolor);
+    padding-right: 4%;
+}
+
+.d-inline-block {
+    margin-left: 4%;
+}
+
+#item1 {
+    color: var(--textcolor);
+}
+
+#item {
+    color: var(--textcolor);
+    font-size: 1.2rem;
+}
+
+#icono{
+    margin-right: 1%;
+    width: 6%;
+}
+
+#ticket {
+    color: var(--colorbtn);
+    font-size: 1.2rem;
+}
+
+.navbar-toggler {
+    border-color: var(--textcolor);
+    margin-right: 4%;
+}
+
+@media (max-width: 992px){
+    #icono{
+        margin-right: 0%;
+        width: 9%;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .d-inline-block {
+        margin-left: 2%;
+    }
+
+    #icono{
+        margin-right: 0%;
+        width: 15%;
+    }
+
+    #nav-bar {
+        background-color: var(--bgcolor);
+        color: var(--textcolor);
+        padding-right: 2%;
+    }
+
+}
+
+
+@media (max-width: 280px) {
+
+    .d-inline-block {
+        margin-left: 1%;
+    }
+
+    #icono{
+        margin-right: 0%;
+        padding-left: 3%;
+        width: 20%;
+    }
+
+    #nav-bar {
+        background-color: var(--bgcolor);
+        color: var(--textcolor);
+        padding-right: 1%;
+    }
+}

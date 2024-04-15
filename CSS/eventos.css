@@ -1,0 +1,74 @@
+
+#carouselExample{
+   width: 55%;
+   margin-bottom: 2%;
+   border: 12px inset;
+}
+
+#carouselExampleIndicators{
+    width: 55%;
+    margin-bottom: 4%;
+    border: 12px inset;
+ }
+
+ #carouselExampleCaptions{
+    width: 55%;
+    margin-bottom: 2%;
+    border: 12px inset;
+ }
+
+#container{
+   display: flex;
+   justify-content: center;
+}
+
+
+#eventos{
+    color: beige;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    padding-top: 3%;
+}
+
+@media (max-width: 992px){
+    
+   #carouselExample{
+      width: 70%;
+      margin-bottom: 2%;
+      border: 12px inset;
+   }
+   
+   #carouselExampleIndicators{
+       width: 70%;
+       margin-bottom: 4%;
+       border: 12px inset;
+    }
+   
+    #carouselExampleCaptions{
+       width: 70%;
+       margin-bottom: 2%;
+       border: 12px inset;
+    }
+}
+
+@media (max-width: 575px){
+    
+   #carouselExample{
+      width: 98%;
+      margin-bottom: 2%;
+      border: 12px inset;
+   }
+   
+   #carouselExampleIndicators{
+       width: 98%;
+       margin-bottom: 4%;
+       border: 12px inset;
+    }
+   
+    #carouselExampleCaptions{
+       width: 98%;
+       margin-bottom: 2%;
+       border: 12px inset;
+    }
+}

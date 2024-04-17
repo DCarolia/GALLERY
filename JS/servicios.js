@@ -1,8 +1,5 @@
 
-let costoServicioBasico = 50.000;
-let costoServicioIntermedio   = 100.000;
-let costoServicioPremium    = 150.000;
-let totalValorServicios = 0;
+let costoServicioBasico = 100;
 
 
 let cantidadServicios = document.getElementById("cantidad");
@@ -12,16 +9,18 @@ let categoria       = document.getElementById("categoria");
 
 function total_aproximado() {
 
+    let totalValorServicios = (cantidadServicios.value) * costoServicioBasico;
+
     if (categoria.value == 0) {
-        totalValorServicios = costoServicioBasico * cantidadServicios;
+        totalValorServicios = (cantidadServicios.value) * costoServicioBasico;
     }
 
     if (categoria.value == 1) {
-        totalValorServicios = costoServicioIntermedio * cantidadServicios;
+        totalValorServicios = (cantidadServicios.value) * costoServicioBasico + 50;
     }
     
     if (categoria.value == 2) {
-         totalValorServicios = costoServicioPremium * cantidadServicios;
+        totalValorServicios = (cantidadServicios.value) * costoServicioBasico + 100;
     }
 
     total.innerHTML = totalValorServicios;
